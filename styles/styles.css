@@ -176,6 +176,10 @@ input:focus, textarea:focus {
     border-radius: 6px;
     padding: 0.5rem;
 }
+input, textarea {
+    border-radius: 4px;
+    padding: 0 0.5rem;
+}
 @media (min-width: 769px) and (max-width: 1023px) {
     form {
         width: 60%;
