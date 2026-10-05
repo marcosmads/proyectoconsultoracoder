@@ -1,0 +1,20 @@
+{
+  "name": "consultorarrhh",
+  "version": "1.0.0",
+  "description": "acceso web: https://marcosmads.github.io/proyectoconsultoracoder/",
+  "homepage": "https://github.com/marcosmads/proyectoconsultoracoder#readme",
+  "bugs": {
+    "url": "https://github.com/marcosmads/proyectoconsultoracoder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosmads/proyectoconsultoracoder.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
