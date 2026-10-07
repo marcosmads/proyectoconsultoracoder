@@ -1,0 +1,8 @@
+@use "../utilities/variables" as *;
+@use "../base/tipografia" as *;
+
+.btn {
+    font-family: $tipografiaPrincipal;
+    background-color: $colorfondocontraste;
+    color: $colorTextoHeader;
+}

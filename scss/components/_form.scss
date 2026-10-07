@@ -1,0 +1,24 @@
+@use "../utilities/variables" as *;
+@use "../base/tipografia" as *;
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: $gapform;
+    margin: 2rem auto;
+    width: 80%;
+
+    @media (min-width: 769px) {
+        width: 60%;
+    }
+}
+input, textarea {
+    border-radius: 4px;
+    padding: 0 0.5rem;
+
+    &:focus {
+        border: 1px solid $colorBordeInputContacto;
+        border-radius: 6px;
+        padding: 0.5rem;
+    }    
+}

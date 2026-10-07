@@ -1,0 +1,40 @@
+@use "../utilities/variables" as *;
+@use "../base/tipografia" as *;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.nav-item.font-item .nav-link {
+    font-family: $tipografiaPrincipal;
+    color:$colorTextoHeader;
+    text-decoration: none;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+    &:hover {
+        color: $colorTextoHeaderHover;
+        cursor: pointer;
+    }
+    &:active {
+        color: $colorTextoHeaderActive;
+        font-weight: $letraGruesa;
+    }
+}
+.navbar-brand {
+    font-family: $tipografiaPrincipal;
+    color: $colorTexto;
+    text-decoration: none;
+    font-weight: $letraNormal;
+    font-size: $tamañoTextoNavbar;
+
+    @media (min-width: 769px) and (max-width: 1023px) {
+        font-weight: $letraGruesa;
+        font-size: $tamañoTextoNavbardesktop;
+    }
+    @media (min-width: 1024px) {
+        font-weight: $letraGruesa;
+        font-size: $tamañoTextoTitulo;
+    }
+}
