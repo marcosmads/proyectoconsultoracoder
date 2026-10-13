@@ -1,106 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-.btn {
-  font-family: "Inter", sans-serif;
-  background-color: #5DBA60;
-  color: #260026;
-}
-
 .card {
-  background-color: #5DBA60;
-  max-width: 600px;
   justify-content: center;
   margin: 0rem auto;
 }
 
-.card-title {
-  font-family: "Inter", sans-serif;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 1.4rem;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-  margin: 2rem auto;
-  width: 80%;
-}
-@media (min-width: 769px) {
-  form {
-    width: 60%;
-  }
-}
-
-input, textarea {
-  border-radius: 4px;
-  padding: 0 0.5rem;
-}
-input:focus, textarea:focus {
-  border: 1px solid #365637;
-  border-radius: 6px;
-  padding: 0.5rem;
-}
-
-footer {
-  background-color: #5DBA60;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.2rem 2rem;
-  font-size: 0.8rem;
-}
-
-header {
-  background-color: #5DBA60;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-
-.nav-item.font-item .nav-link {
-  font-family: "Inter", sans-serif;
-  color: #260026;
-  text-decoration: none;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-}
-.nav-item.font-item .nav-link:hover {
-  color: #730073;
-  cursor: pointer;
-}
-.nav-item.font-item .nav-link:active {
-  color: #c404c4;
-  font-weight: 700;
-}
-
-.navbar-brand {
-  font-family: "Inter", sans-serif;
-  color: #730073;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 1.4rem;
-}
-@media (min-width: 769px) and (max-width: 1023px) {
-  .navbar-brand {
-    font-weight: 700;
-    font-size: 2rem;
-  }
-}
-@media (min-width: 1024px) {
-  .navbar-brand {
-    font-weight: 700;
-    font-size: 2.6rem;
-  }
-}
-
-/* reseteo de margenes y paddings */
 * {
   margin: 0;
   padding: 0;
@@ -212,6 +116,120 @@ figure {
   text-align: left;
 }
 
+footer {
+  background-color: #5DBA60;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 2rem;
+  font-size: 0.8rem;
+}
+
+header {
+  background-color: #5DBA60;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-item.font-item .nav-link {
+  font-family: "Inter", sans-serif;
+  color: #260026;
+  text-decoration: none;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.nav-item.font-item .nav-link:hover {
+  color: #730073;
+  cursor: pointer;
+}
+.nav-item.font-item .nav-link:active {
+  color: #c404c4;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-family: "Inter", sans-serif;
+  color: #730073;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 2.6rem;
+  }
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  background-color: #5DBA60;
+  color: #260026;
+}
+
+.card {
+  background-color: #5DBA60;
+  max-width: 600px;
+  overflow: hidden;
+}
+.card.item .card-title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.card-title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.card-img-top, .card-img-bottom {
+  transition: all 0.2s ease-in-out;
+}
+.card-img-top:hover, .card-img-bottom:hover {
+  transform: scale(1.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 2rem auto;
+  width: 80%;
+}
+@media (min-width: 769px) {
+  form {
+    width: 60%;
+  }
+}
+
+input, textarea {
+  border-radius: 4px;
+  padding: 0 0.5rem;
+}
+input:focus, textarea:focus {
+  border: 1px solid #365637;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+/* reseteo de margenes y paddings */
 #video-title {
   text-align: center;
 }
