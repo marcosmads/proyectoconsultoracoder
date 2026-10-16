@@ -21,22 +21,10 @@ body {
     color para textos  $colorTexto
     familia de texto: $tipografiaPrincipal
 */
-h1, h2, h3, h4, h5, h6, p, figcaption, li, label {
+
+h2, h3, h4, h5, h6, p, figcaption, li, label {
     font-family: $tipografiaPrincipal;
     color: $colorTexto;
-}
-/*
-    tamaño de texto para h1 y centrado
-*/
-h1 {
-    font-weight: $letraGruesa;
-    font-size: $tamañoTextoTitulo;
-    text-align: center;
-    padding: 0.75rem;
-
-    @media (min-width: 769px) {
-        font-size: $tamañoTextoh1desktop;
-    }
 }
 /*
     estilo de texto para p

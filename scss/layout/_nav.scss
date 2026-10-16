@@ -22,19 +22,3 @@
         font-weight: $letraGruesa;
     }
 }
-.navbar-brand {
-    font-family: $tipografiaPrincipal;
-    color: $colorTexto;
-    text-decoration: none;
-    font-weight: $letraNormal;
-    font-size: $tamañoTextoNavbar;
-
-    @media (min-width: 769px) and (max-width: 1023px) {
-        font-weight: $letraGruesa;
-        font-size: $tamañoTextoNavbardesktop;
-    }
-    @media (min-width: 1024px) {
-        font-weight: $letraGruesa;
-        font-size: $tamañoTextoTitulo;
-    }
-}

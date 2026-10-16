@@ -4,7 +4,7 @@
 
 @mixin card-style($fontWeight: $letraNormal) {
     font-family: $tipografiaPrincipal;
-    color: $colorTituloCard;
+    color: $colorTextoCard;
     text-decoration: none;
     font-weight: $fontWeight;
     font-size: $tamañoTextoCard;

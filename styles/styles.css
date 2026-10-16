@@ -1,5 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* $colorfondo: #80FF84; se cambió la paleta de colores */
+/* $colorfondocontraste: #5DBA60; se cambió la paleta de colores */
+/* $colorTexto: #730073; se cambió la paleta de colores */
+/* $colorTextoHeader: #260026; se cambió la paleta de colores */
+/* $colorTextoHeaderHover: #730073; se cambió la paleta de colores */
+/* $colorTextoHeaderActive: #c404c4; se cambió la paleta de colores */
 .card {
   justify-content: center;
   margin: 0rem auto;
@@ -15,31 +21,16 @@
     #80FF84 color para fondo
 */
 body {
-  background-color: #80FF84;
+  background-color: #ffffff;
 }
 
 /*
     color para textos  $colorTexto
     familia de texto: $tipografiaPrincipal
 */
-h1, h2, h3, h4, h5, h6, p, figcaption, li, label {
+h2, h3, h4, h5, h6, p, figcaption, li, label {
   font-family: "Inter", sans-serif;
-  color: #730073;
-}
-
-/*
-    tamaño de texto para h1 y centrado
-*/
-h1 {
-  font-weight: 700;
-  font-size: 2.6rem;
-  text-align: center;
-  padding: 0.75rem;
-}
-@media (min-width: 769px) {
-  h1 {
-    font-size: 4rem;
-  }
+  color: #22174E;
 }
 
 /*
@@ -117,7 +108,7 @@ figure {
 }
 
 footer {
-  background-color: #5DBA60;
+  background-color: #22174E;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,41 +116,26 @@ footer {
   font-size: 0.8rem;
 }
 
-header {
-  background-color: #5DBA60;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-
-.nav-item.font-item .nav-link {
+.texto-footer {
   font-family: "Inter", sans-serif;
-  color: #260026;
-  text-decoration: none;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  color: #ffffff;
 }
-.nav-item.font-item .nav-link:hover {
-  color: #730073;
-  cursor: pointer;
-}
-.nav-item.font-item .nav-link:active {
-  color: #c404c4;
-  font-weight: 700;
+
+header {
+  background-color: #22174E;
+  color: #ffffff;
 }
 
 .navbar-brand {
   font-family: "Inter", sans-serif;
-  color: #730073;
-  text-decoration: none;
+  color: #ffffff;
   font-weight: 400;
   font-size: 1.4rem;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
 }
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 769px) {
   .navbar-brand {
     font-weight: 700;
     font-size: 2rem;
@@ -171,15 +147,41 @@ header {
     font-size: 2.6rem;
   }
 }
+.navbar-brand:active {
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-item.font-item .nav-link {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.nav-item.font-item .nav-link:hover {
+  color: #9d9999;
+  cursor: pointer;
+}
+.nav-item.font-item .nav-link:active {
+  color: #b98a8a;
+  font-weight: 700;
+}
 
 .btn {
   font-family: "Inter", sans-serif;
-  background-color: #5DBA60;
-  color: #260026;
+  background-color: #22174E;
+  color: #ffffff;
 }
 
 .card {
-  background-color: #5DBA60;
+  background-color: #22174E;
   max-width: 600px;
   overflow: hidden;
 }
