@@ -1,8 +1,16 @@
 @use "../utilities/variables" as *;
 @use "../base/tipografia" as *;
+@use "../base/base" as *;
 
 .btn {
     font-family: $tipografiaPrincipal;
     background-color: $colorfondocontraste;
     color: $colorTextoHeader;
+    margin: auto;
+    display: block;
+
+    &:hover {
+        border-color: $colorfondocontraste;
+        border-width: 2px;
+    }
 }
