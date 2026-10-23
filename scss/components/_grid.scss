@@ -1,0 +1,31 @@
+@use "../utilities/variables" as *;
+
+#clientes {
+    display: grid;
+    row-gap: $rowgapNormal;
+
+    @media (min-width: 1024px) {
+        grid-template-areas:
+        "mostaza adidas"
+        "coderhouse coderhouse";
+        column-gap: 1rem;
+        row-gap: $rowgapdesktop;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .coderhouse {
+        grid-area: coderhouse;
+    }
+    .adidas {
+        grid-area: adidas;
+    }
+    .mostaza {
+        grid-area: mostaza;
+    }
+    #carouselExampleCaptions {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

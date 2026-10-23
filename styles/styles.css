@@ -6,6 +6,7 @@
 /* $colorTextoHeader: #260026; se cambió la paleta de colores */
 /* $colorTextoHeaderHover: #730073; se cambió la paleta de colores */
 /* $colorTextoHeaderActive: #c404c4; se cambió la paleta de colores */
+/* reseteo de margenes y paddings */
 .card {
   justify-content: center;
   margin: 0rem auto;
@@ -64,6 +65,10 @@ div img {
 #video-vimeo {
   padding: 25% 0 0 0;
   position: relative;
+}
+
+#video-title {
+  text-align: center;
 }
 
 ul {
@@ -234,11 +239,6 @@ input:focus, textarea:focus {
   border: 1px solid #365637;
   border-radius: 6px;
   padding: 0.5rem;
-}
-
-/* reseteo de margenes y paddings */
-#video-title {
-  text-align: center;
 }
 
 #clientes {

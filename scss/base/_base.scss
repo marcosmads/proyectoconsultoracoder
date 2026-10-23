@@ -49,10 +49,13 @@ h2 {
 div img {
         width: 100%;
         height: auto;
-    }
+}
 #video-vimeo {
     padding:25% 0 0 0;
     position: relative;
+}
+#video-title {
+    text-align: center;
 }
 ul {
     display: flex;
